@@ -1,0 +1,161 @@
+.main-header{
+    padding-top: 10px;
+}
+
+#left_container{
+    margin-left: 20px;
+    margin-right: 5px;
+    width: 80%;
+}
+
+#right_container{
+    border: 5px solid black;
+    width: 20%;
+}
+
+
+.parent_container{
+    display: flex;
+}
+
+.centered{
+    text-align: center;
+}
+
+#imageContainer{
+    align-items: center;
+    border: 10px;    
+}
+
+#input_button_container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img {
+    border: 5px solid #555;
+    width: 400px;
+    height: 250px;
+}
+
+#hintButton{
+    height: 50px;
+    width: 140px;
+    margin-right: 10px;
+}
+
+#skipButton{
+    height: 50px;
+    width: 140px;
+    margin-left: 10px;
+}
+
+#userGuess{
+    margin-right: 5px;
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+}
+
+table{
+    margin: 0px auto;
+    width: 800px;
+    margin-bottom: 10px;
+    font-size: 22px;
+
+}
+
+#table_container{
+    margin-top: 50px;
+    border: 5px solid black;
+}
+
+caption{
+    font-size: 30px;
+}
+
+.table-caption-div {
+    display: inline-block;
+    align-content: center;
+  }
+
+  ol{
+    list-style: none
+  }
+
+#showResultButton{
+    height: 80px;
+    width: 200px;
+    display: none;
+    margin-top: 50px;
+}
+
+#hints_label{
+    font-size: 40px;
+}
+
+#hint_text_insert{
+    font-size: 20px;
+}
+
+#hint_div{
+    /* border: 5px solid gold; */
+    margin-top: 40px;
+}
+
+.header_text{
+    font-size: 40px;
+}
+
+.button-37 {
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-37:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-3px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-37 {
+      padding: 10px 30px;
+    }
+  }
+
+body {
+    background: linear-gradient(-45deg, #2fafdd, #94d6ed);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}

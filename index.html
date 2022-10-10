@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Flag Quiz</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/main.js" async></script>
+
+</head>
+<body>
+    <div class="parent_container">
+        <div class="centered" id="left_container">
+            <div class="main-header">
+                <h1 class="header_text">Guess the Country of this Flag!</h1>
+            </div>
+            <div id="imageContainer">
+                <img src="" id="image_to_load">
+            </div>
+            <div id="input_button_container">
+                <input type="text" id="userGuess" name="userGuess">
+                <button class="button-37" id="submitGuess" onclick="TakeUserInput()">Submit Guess</button>
+            </div>
+            <div>
+                <button class="button-37" id="hintButton" onclick="GetHint()">Get Hint</button>
+                <button class="button-37" id="skipButton" onclick="SkipFlag()">Skip</button>
+            </div>
+            <div id="guess_result_container">
+                <h1 id="guess_result"></h1>
+            </div>
+            <div id="table_container">
+                <h1 class="header_text">Statistics</h1>
+                <table border="2">
+                    <tr>
+                        <th>Correct Guess Count</th>
+                        <th>Incorrect Guess Count</th>
+                        <th>Skipped Count</th>
+                        <!-- <th>Hints Needed</th> -->
+
+                    </tr>
+                    <tr>
+                        <td id="correct">0</td>
+                        <td id="incorrect">0</td>
+                        <td id="skip">0</td>
+                        <!-- <td id="hints">0</td> -->
+
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+            
+        <div class="centered" id="right_container">
+            <div id="hint_div">
+                <h1 id="hints_label">Hints:</h1>
+                <div id="hint_text_insert">
+                </div>
+            </div>
+            <div>
+                <button class="button-37" id="showResultButton" onclick="GetResult()">Input Correct Country</button>
+            </div>
+        </div>
+    </div>
+        
+    
+    
+</body>
+</html>
